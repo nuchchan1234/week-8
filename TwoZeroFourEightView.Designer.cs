@@ -48,8 +48,6 @@
             this.btnUp = new System.Windows.Forms.Button();
             this.btnRight = new System.Windows.Forms.Button();
             this.btnDown = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblScore = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl00
@@ -291,33 +289,11 @@
             this.btnDown.UseVisualStyleBackColor = true;
             this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Franklin Gothic Book", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(455, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 34);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Score :";
-            // 
-            // lblScore
-            // 
-            this.lblScore.AutoSize = true;
-            this.lblScore.Font = new System.Drawing.Font("Franklin Gothic Book", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore.Location = new System.Drawing.Point(593, 22);
-            this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(32, 34);
-            this.lblScore.TabIndex = 21;
-            this.lblScore.Text = "0";
-            // 
             // TwoZeroFourEightView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(686, 394);
-            this.Controls.Add(this.lblScore);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDown);
             this.Controls.Add(this.btnRight);
             this.Controls.Add(this.btnUp);
@@ -342,7 +318,6 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.TwoZeroFourEightView_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -368,8 +343,6 @@
         private System.Windows.Forms.Button btnUp;
         private System.Windows.Forms.Button btnRight;
         private System.Windows.Forms.Button btnDown;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblScore;
     }
 }
 
