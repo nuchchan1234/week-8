@@ -51,6 +51,7 @@
             this.lblScore.Size = new System.Drawing.Size(32, 34);
             this.lblScore.TabIndex = 22;
             this.lblScore.Text = "0";
+            this.lblScore.Click += new System.EventHandler(this.lblScore_Click);
             // 
             // ScoreView
             // 

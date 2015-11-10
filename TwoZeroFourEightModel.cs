@@ -37,6 +37,7 @@ namespace twozerofoureight
             }
             total = sumscore;
             return total;
+            NotifyAll();
         }
 
 
